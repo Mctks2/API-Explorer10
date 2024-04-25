@@ -2,8 +2,8 @@
  * index - GET para listar vários registros
  * show - GET para exibir um registro
  * create - POST para criar um registro
- * update - PU para atualizar um registro
- * Delete - DELETE para Remover um registro
+ * update - PUT para atualizar um registro
+ * delete - DELETE para Remover um registro
  */
 const { hash, compare } = require("bcryptjs")
 const AppError =require("../utils/AppError")
